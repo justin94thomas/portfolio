@@ -24,7 +24,10 @@
     text-align: center;
 }
 
-.main-content {}
+.logo-content {
+    display: flex;
+    justify-content: center;
+}
 
 .hello {
     font-size: 1.75rem;
@@ -43,7 +46,17 @@
 
 @media screen and (max-width: 840px) {
     .techBackground {
-        right: -10vw;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .logo-content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
     }
 
     .intro-content {
@@ -57,6 +70,16 @@
 
 @media screen and (max-width: 480px) {
     .techBackground {
-        right: -20vw;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .logo-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
     }
 }
