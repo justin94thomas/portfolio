@@ -1,33 +1,30 @@
-#intro {
-    height: calc(100vh - 4rem);
+#about {
+    height: calc(108vh - 4rem);
     width: 100vw;
-    max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    top: 10vh;
 }
 
-.backgroundImg {
-    position: absolute;
-    top: 0rem;
-    right: 0;
-    z-index: -1;
+.techBackground {
     object-fit: cover;
-    height: 100vh;
+    height: 20vh;
+    width: 10vw;
 }
 
-.intro-content {
-    height: 100vh;
+.about-content {
+    height: 90vh;
     width: 100vw;
     padding: 2rem;
     font-size: 3rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: left;
+    justify-content: space-evenly;
+    text-align: center;
 }
+
+.main-content {}
 
 .hello {
     font-size: 1.75rem;
@@ -38,14 +35,14 @@
     color: yellow;
 }
 
-.intro-para {
+.about-para {
     font-size: medium;
     font-weight: 100;
 }
 
 
 @media screen and (max-width: 840px) {
-    .backgroundImg {
+    .techBackground {
         right: -10vw;
     }
 
@@ -59,7 +56,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    .backgroundImg {
+    .techBackground {
         right: -20vw;
     }
 }

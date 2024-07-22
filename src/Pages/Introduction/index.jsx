@@ -2,8 +2,6 @@ import React, { } from 'react';
 import './intro.css';
 import { images } from '../../Content/assets';
 const Introduction = () => {
-
-
     const { Profile } = images;
 
     return <>
