@@ -20,6 +20,7 @@
     color: white;
     border-radius: 10px;
     margin: auto;
+    height: 75vh;
 }
 
 .exp-ul {
@@ -31,18 +32,11 @@
     margin-right: 20px;
 }
 
-.exp-item {
-    text-align: left;
-    font-size: 1rem;
-    padding: 10px;
-    cursor: pointer;
-    width: 34vh;
-    color: #8892B0;
-    transition: color 0.3s;
-}
+
 
 .exp-item:hover {
     color: yellow;
+    border: none !important;
     border-left: 2px solid yellow;
     width: 34vh;
 }
@@ -52,6 +46,7 @@
     grid-template-columns: 1fr 3fr;
     grid-template-rows: auto auto;
     gap: 20px;
+    height: 100%;
 }
 
 
@@ -95,9 +90,35 @@
     transition: color 0.3s;
 }
 
+.exp-item:active {
+    color: yellow;
+    border: none !important;
+    border-left: 2px solid yellow;
+}
+
 .exp-ul .exp-item:hover {
     color: yellow;
+    border: none !important;
+    border-left: 2px solid yellow;
 }
+
+
+.exp-item {
+    text-align: left;
+    font-size: 1rem;
+    padding: 10px;
+    width: 34vh;
+    cursor: pointer;
+    color: #8892B0;
+    transition: color 0.3s;
+}
+
+.exp-item.active {
+    color: yellow;
+    border: none !important;
+    border-left: 2px solid yellow !important;
+}
+
 
 .company-title {
     font-size: 16px;
@@ -135,5 +156,9 @@
 
     .exp-item {
         width: 20vh;
+    }
+
+    .experience-content {
+        height: auto;
     }
 }

@@ -1,0 +1,158 @@
+{
+    "First Name": "Justin",
+    "Last Name": "Thomas",
+    "Current Location": "Bengaluru, Karnataka",
+    "Prefered Location": [
+        "Bengaluru",
+        "Kochi",
+        "Delhi NCR"
+    ],
+    "Email": "justin19.94thomas@gmail.com",
+    "Mobile": 9873658895,
+    "Designation": [
+        "Web Developer",
+        "React Developer",
+        "Full Stack Developer"
+    ],
+    "Total Experience": 4.8,
+    "Relavant Experience": 4.2,
+    "Work Experience": [
+        {
+            "empID": "K089444",
+            "Company Name": "Ken42 EdTech",
+            "Location": "Bangalore, Karnataka",
+            "Start Date": "01-01-2022",
+            "End Date": "03-12-2022",
+            "Current Company": false,
+            "active": true,
+            "Roles and Responsibilities": [
+                "Led front-end development for the academic management module, facilitating term planning and faculty onboarding.",
+                "Developed robust APIs with Express.JS and integrated SOQL queries, enhancing data retrieval efficiency.",
+                "Trained and onboarded new front-end developers, improving team productivity.",
+                "Created the beta and initial release of the fee management module, increasing transaction reliability.",
+                "Enhanced Lighthouse performance score from 40 to 85+ by optimizing code and API calls and reducing load time."
+            ],
+            "Intership": false,
+            "Intership Details": []
+        },
+        {
+            "empID": "GF2020020",
+            "Company Name": "Gigaflow Technologies LLP",
+            "Location": "Bangalore, Karnataka",
+            "Start Date": "06-01-2020",
+            "End Date": "12-31-2021",
+            "Current Company": false,
+            "active": false,
+            "Roles and Responsibilities": [
+                "Developed a comprehensive Dashboard module, enhancing platform-wide data visualization.",
+                "Implemented fee and payroll solutions for two major clients, improving operational efficiency.",
+                "Integrated Razorpay and PayU, streamlining payment processes for users.",
+                "Developed an Excel-based migration module, accelerating user data transfer by 60%."
+            ],
+            "Intership": false,
+            "Intership Details": []
+        },
+        {
+            "empID": "WDM0072",
+            "Company Name": "Web Design Magics (Consultancy)",
+            "Location": "Bangalore, Karnataka",
+            "Start Date": "10-01-2019",
+            "End Date": "05-31-2020",
+            "active": false,
+            "Current Company": false,
+            "Roles and Responsibilities": [
+                "Contributed to the profit and loss statement module for Gigaflow Technologies LLP, improving financial reporting accuracy.",
+                "Designed an Excel-based migration module, streamlining data transfer."
+            ],
+            "Intership": true,
+            "Intership Details": [
+                "Completed a comprehensive training program at Web Design Magics covering core concepts of React.JS, including JSX, component lifecycle, hooks, and state management (10/2019 – 01/2020).",
+                "Built multiple mini-projects to apply theoretical knowledge in practical scenarios during the training."
+            ]
+        },
+        {
+            "empID": "AD0908",
+            "Company Name": "Adaan Digital Solutions",
+            "Location": "New Delhi",
+            "Start Date": "01-02-2019",
+            "End Date": "09-15-2019",
+            "Current Company": false,
+            "active": false,
+            "Roles and Responsibilities": [
+                "Successfully migrated over 600 websites in 7 months, enhancing client satisfaction.",
+                "Conducted Quality Assurance testing for 2 months, ensuring high standards for all websites."
+            ],
+            "Intership": false,
+            "Intership Details": []
+        }
+    ],
+    "Skills": [
+        {
+            "Frontend Development": [
+                "React.JS",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "TypeScript"
+            ]
+        },
+        {
+            "Backend Development": [
+                "Node.JS",
+                "Express.JS",
+                "MongoDB",
+                "SOQL"
+            ]
+        },
+        {
+            "Tools & Platform": [
+                "GIT",
+                "Bitbucket",
+                "Postman",
+                "JIRA"
+            ]
+        }
+    ],
+    "Projects": [
+        {
+            "Project Name": "Project Alpha – Marketplace",
+            "Description": "Aims to create a dynamic online platform specializing in sneakers and clothing. This user-friendly site will feature a selection of products, and a streamlined shopping experience, catering to fashion enthusiasts looking for the latest trends and exclusive releases.",
+            "Image": "",
+            "GitHub": "",
+            "Tools & Technologies": [
+                "React JS",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "Context API",
+                "Material UI",
+                "Bootstrap",
+                "GIT",
+                "GitHub",
+                "Node.JS",
+                "Express.JS",
+                "MongoDB"
+            ]
+        },
+        {
+            "Project Name": "Project Alpha – Blockbuster",
+            "Description": "Aims to develop a comprehensive platform for booking movie tickets with seat selection, watching trailers, and streaming movies online. This user-friendly site will offer a seamless experience for movie enthusiasts, providing all-in-one access to the latest releases and convenient ticket reservations.",
+            "Image": "",
+            "GitHub": "",
+            "Tools & Technologies": [
+                "React JS",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "Context API",
+                "Material UI",
+                "Bootstrap",
+                "GIT",
+                "GitHub",
+                "Node.JS",
+                "Express.JS",
+                "MongoDB"
+            ]
+        }
+    ]
+}

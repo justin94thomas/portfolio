@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { PortfolioProvider } from './Content/PortfolioContext';
 import Navigation from './Pages/Navigation';
 import Introduction from './Pages/Introduction';
 import About from './Pages/About';
@@ -10,11 +11,13 @@ import Experience from './Pages/Experience';
 function App() {
   return (
     <div className="App">
-      <Navigation />
-      <Introduction />
-      <About />
-      <Experience />
-      {/* <Contact /> */}
+      <PortfolioProvider>
+        <Navigation />
+        <Introduction />
+        <About />
+        <Experience />
+        {/* <Contact /> */}
+      </PortfolioProvider>
     </div>
   );
 }

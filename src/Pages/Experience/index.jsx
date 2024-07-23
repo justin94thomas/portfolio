@@ -1,37 +1,62 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './experience.css';
+import { PortfolioProvider, usePortfolioContext } from '../../Content/PortfolioContext';
+import { parse, format } from 'date-fns';
 
 const Experience = () => {
+    const { state, dispatch } = usePortfolioContext();
+    const [workData, setWorkData] = useState([]);
 
-    return <>
+
+    useEffect(() => {
+        const workData = state.data['Work Experience'];
+        setWorkData(workData);
+    }, [state.data]);
+
+    function handleView(empID) {
+        setWorkData(prevData =>
+            prevData.map(item =>
+                item.empID === empID
+                    ? { ...item, active: true }
+                    : { ...item, active: false }
+            )
+        );
+    }
+
+    return (
         <div className='div-container experience-main'>
             <section id='experience'>
                 <div className='experience-content'>
                     <span className='intro-name'>Work Experience</span>
                     <div className='exp-side-content'>
                         <ul className='exp-ul'>
-                            <li className='exp-item'>Ken42 EdTech</li>
-                            <li className='exp-item'>Gigaflow Technologies LLP</li>
-                            <li className='exp-item'>Web Design Magics</li>
-                            <li className='exp-item'>Adaan Digital Solutions</li>
+                            {workData.length > 0 && workData.map(item => {
+                                return <li key={item?.empID} className={`exp-item ${item?.active ? 'active' : ''}`} onClick={() => handleView(item?.empID)}>
+                                    {item['Company Name']}
+                                </li>
+                            })}
                         </ul>
-                        <div className='company-info'>
-                            <p className='company-title'>React Developer</p>
-                            <p className='company-title'><span>Ken42 EdTech</span> | Bangalore, Karnataka</p>
-                            <p className='company-dates'>Jan 2022 - Mar 2024</p>
-                            <ul className='exp-content'>
-                                <li className='company-item'>Led front-end development for the academic management module, facilitating term planning and faculty onboarding.</li>
-                                <li className='company-item'>Developed robust APIs with Express.JS and integrated SOQL queries, enhancing data retrieval efficiency.</li>
-                                <li className='company-item'>Trained and onboarded new front-end developers, improving team productivity.</li>
-                                <li className='company-item'>Created the beta and initial release of the fee management module, increasing transaction reliability.</li>
-                                <li className='company-item'>Enhanced Lighthouse performance score from 40 to 85+ by optimizing code and API calls and reducing load time.</li>
-                            </ul>
-                        </div>
+                        {workData.length > 0 && workData.filter(item => item.active).map(item => {
+                            const startDate = parse(item['Start Date'], 'MM-dd-yyyy', new Date());
+                            const endDate = parse(item['End Date'], 'MM-dd-yyyy', new Date());
+                            return (
+                                <div key={item?.empID} className='company-info'>
+                                    <p className='company-title'>React Developer</p>
+                                    <p className='company-title'><span>{item['Company Name']}</span> | {item['Location']}</p>
+                                    <p className='company-dates'>{format(startDate, 'MMM yyyy')} - {format(endDate, 'MMM yyyy')}</p>
+                                    <ul className='exp-content'>
+                                        {item['Roles and Responsibilities']?.length > 0 && item['Roles and Responsibilities'].map((role, index) => (
+                                            <li key={index} className='company-item'>{role}</li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            );
+                        })}
                     </div>
                 </div>
             </section>
         </div>
-    </>
+    );
 }
 
 export default Experience;
