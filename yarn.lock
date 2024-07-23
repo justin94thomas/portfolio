@@ -8684,6 +8684,11 @@ react-scroll@^1.9.0:
     lodash.throttle "^4.1.1"
     prop-types "^15.7.2"
 
+react-simple-typewriter@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.npmjs.org/react-simple-typewriter/-/react-simple-typewriter-5.0.1.tgz"
+  integrity sha512-vA5HkABwJKL/DJ4RshSlY/igdr+FiVY4MLsSQYJX6FZG/f1/VwN4y1i3mPXRyfaswrvI8xii1kOVe1dYtO2Row==
+
 react-transition-group@^4.4.5:
   version "4.4.5"
   resolved "https://registry.npmjs.org/react-transition-group/-/react-transition-group-4.4.5.tgz"
