@@ -4,6 +4,8 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    top: 10vh;
+    align-content: center;
 }
 
 .techBackground {
@@ -104,6 +106,7 @@
 @media screen and (max-width: 480px) {
     #about {
         height: calc(100vh - 4rem);
+        top: 0vh;
     }
 
     .about-content {
