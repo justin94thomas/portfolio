@@ -103,7 +103,7 @@
 
 @media screen and (max-width: 480px) {
     #about {
-        height: calc(115vh - 4rem);
+        height: calc(100vh - 4rem);
     }
 
     .about-content {
@@ -140,7 +140,7 @@
     .logo-content img:nth-child(6) {
         grid-column: span 1;
         grid-row: auto;
-        height: 25vh;
-        width: 28vh;
+        height: 18vh;
+        width: 20vh;
     }
 }

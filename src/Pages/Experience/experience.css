@@ -121,3 +121,19 @@
         width: 20vh;
     }
 }
+
+@media screen and (max-width: 480px) {
+    #experience {
+        width: 100vw;
+        height: calc(160vh - 4rem);
+        top: 0vh;
+    }
+
+    .exp-side-content {
+        grid-template-columns: none;
+    }
+
+    .exp-item {
+        width: 20vh;
+    }
+}
