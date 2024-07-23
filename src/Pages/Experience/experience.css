@@ -5,7 +5,6 @@
     overflow: hidden;
     position: relative;
     top: 10vh;
-    align-content: center;
 }
 
 .experience-content {
@@ -25,30 +24,35 @@
 
 .exp-ul {
     list-style-type: none;
-    border-left: 1px solid grey;
     height: fit-content;
     padding: 0;
     margin: 0;
-    margin-right: 20px;
-}
-
-
-
-.exp-item:hover {
-    color: yellow;
-    border: none !important;
-    border-left: 2px solid yellow;
-    width: 34vh;
 }
 
 .exp-side-content {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: auto auto;
     gap: 20px;
     height: 100%;
 }
 
+.exp-item {
+    font-size: 1rem;
+    padding: 10px;
+    width: 34vh;
+    cursor: pointer;
+    color: #8892B0;
+    transition: color 0.3s, border-left 0.3s;
+    background: none;
+    border: none;
+    text-align: left;
+}
+
+.exp-item:hover,
+.exp-item.active {
+    color: yellow;
+    border-left: 2px solid yellow;
+}
 
 .company-info {
     flex-grow: 1;
@@ -77,62 +81,6 @@
     color: #8892B0;
 }
 
-.company-item {
-    font-weight: 400;
-}
-
-.exp-ul .exp-item {
-    font-size: 16px;
-    padding: 10px 0;
-    padding-left: 20px;
-    cursor: pointer;
-    color: #8892B0;
-    transition: color 0.3s;
-}
-
-.exp-item:active {
-    color: yellow;
-    border: none !important;
-    border-left: 2px solid yellow;
-}
-
-.exp-ul .exp-item:hover {
-    color: yellow;
-    border: none !important;
-    border-left: 2px solid yellow;
-}
-
-
-.exp-item {
-    text-align: left;
-    font-size: 1rem;
-    padding: 10px;
-    width: 34vh;
-    cursor: pointer;
-    color: #8892B0;
-    transition: color 0.3s;
-}
-
-.exp-item.active {
-    color: yellow;
-    border: none !important;
-    border-left: 2px solid yellow !important;
-}
-
-
-.company-title {
-    font-size: 16px;
-}
-
-.company-dates {
-    font-size: 12px;
-}
-
-.company-info .exp-content {
-    list-style-type: none;
-    padding: 0;
-}
-
 @media screen and (max-width: 840px) {
     #experience {
         width: 85vw;
@@ -147,15 +95,25 @@
     #experience {
         width: 100vw;
         height: calc(160vh - 4rem);
-        top: 0vh;
+        top: 0;
     }
 
     .exp-side-content {
         grid-template-columns: none;
     }
 
+    .exp-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding: 0;
+        margin: 0;
+        border-left: none;
+    }
+
     .exp-item {
-        width: 20vh;
+        width: auto;
+        margin: 5px 0;
     }
 
     .experience-content {

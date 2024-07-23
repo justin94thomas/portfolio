@@ -19,6 +19,7 @@
     "Work Experience": [
         {
             "empID": "K089444",
+            "Designation": "React Developer",
             "Company Name": "Ken42 EdTech",
             "Location": "Bangalore, Karnataka",
             "Start Date": "01-01-2022",
@@ -37,6 +38,7 @@
         },
         {
             "empID": "GF2020020",
+            "Designation": "React Developer",
             "Company Name": "Gigaflow Technologies LLP",
             "Location": "Bangalore, Karnataka",
             "Start Date": "06-01-2020",
@@ -54,6 +56,7 @@
         },
         {
             "empID": "WDM0072",
+            "Designation": "React Developer",
             "Company Name": "Web Design Magics (Consultancy)",
             "Location": "Bangalore, Karnataka",
             "Start Date": "10-01-2019",
@@ -72,6 +75,7 @@
         },
         {
             "empID": "AD0908",
+            "Designation": "Web Designer",
             "Company Name": "Adaan Digital Solutions",
             "Location": "New Delhi",
             "Start Date": "01-02-2019",
