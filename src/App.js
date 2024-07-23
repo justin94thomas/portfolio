@@ -3,7 +3,7 @@ import './App.css';
 import Navigation from './Pages/Navigation';
 import Introduction from './Pages/Introduction';
 import About from './Pages/About';
-// import Experience from './Pages/Experience';
+import Experience from './Pages/Experience';
 // import Contact from './Pages/Contact';
 
 
@@ -13,8 +13,8 @@ function App() {
       <Navigation />
       <Introduction />
       <About />
-      {/* <Experience />
-     <Contact /> */}
+      <Experience />
+      {/* <Contact /> */}
     </div>
   );
 }

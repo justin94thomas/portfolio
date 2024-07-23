@@ -47,10 +47,29 @@
 @media screen and (max-width: 840px) {
     .backgroundImg {
         right: -10vw;
+        height: 55vh;
     }
 
     .intro-content {
-        font-size: 10vw;
+        font-size: 5vw !important;
+        height: 55vh
+    }
+
+    .hello {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .backgroundImg {
+        right: -10vw;
+        height: 40vh;
+        top: 0rem;
+    }
+
+    .intro-content {
+        font-size: 5vw !important;
+        height: 50vh
     }
 
     .hello {
