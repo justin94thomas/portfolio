@@ -126,6 +126,10 @@
         top: 0;
     }
 
+    .contact-box {
+        height: 77vh;
+    }
+
     .form-main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
