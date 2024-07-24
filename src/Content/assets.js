@@ -8,6 +8,8 @@ import HTML5Logo from '../Assets/Images/html5.png';
 import CSS3Logo from '../Assets/Images/css3.png';
 import TypeScriptLogo from '../Assets/Images/typescript.png';
 import NodeLogo from '../Assets/Images/node.png';
+import { TiMessages } from "react-icons/ti";
+
 const images = {
     Profile: Profile,
     JTLogo: JTLogo,
@@ -20,7 +22,7 @@ const images = {
     NodeLogo: NodeLogo
 }
 const icons = {
-
+    Message: TiMessages
 }
 
 export { images, icons }

@@ -1,14 +1,13 @@
 import React, { useRef, useState } from 'react';
 import './contact.css';
 import { SERVICE_ID, PRIVATE_KEY, TEMPLATE_ID } from '../../Content/constants';
-import { useForm, Controller } from "react-hook-form";
-import "react-phone-number-input/style.css";
+import { useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser';
 import { useSnackbar } from 'notistack';
 import Loader from '../../Components/Loader';
 
 const Contact = () => {
-    const { register, handleSubmit, control, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm();
     const { enqueueSnackbar } = useSnackbar();
     const form = useRef();
     const [sendEmail, setEmailSent] = useState(false);
