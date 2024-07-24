@@ -9,6 +9,7 @@ import CSS3Logo from '../Assets/Images/css3.png';
 import TypeScriptLogo from '../Assets/Images/typescript.png';
 import NodeLogo from '../Assets/Images/node.png';
 import { TiMessages } from "react-icons/ti";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const images = {
     Profile: Profile,
@@ -22,7 +23,8 @@ const images = {
     NodeLogo: NodeLogo
 }
 const icons = {
-    Message: TiMessages
+    Message: TiMessages,
+    Menu: GiHamburgerMenu
 }
 
 export { images, icons }
