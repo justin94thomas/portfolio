@@ -15,7 +15,7 @@ const Navigation = () => {
                 <div className='menu-items'>
                     <Link activeClass='active' to='intro' spy smooth offset={-100} duration={500} className='link-item'>Introduction</Link>
                     <Link activeClass='active' to='about' spy smooth offset={-50} duration={500} className='link-item'>About</Link>
-                    <Link activeClass='active' to='experience' spy smooth offset={-75} duration={500} className='link-item'>Experience</Link>
+                    <Link activeClass='active' to='experience' spy smooth offset={-100} duration={500} className='link-item'>Experience</Link>
                     <Link activeClass='active' to='skills' spy smooth offset={-100} duration={500} className='link-item'>Skills</Link>
                 </div>
                 <button className='contact-btn'

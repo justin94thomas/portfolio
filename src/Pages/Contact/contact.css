@@ -122,12 +122,12 @@
 @media screen and (max-width: 480px) {
     #contact {
         width: 100vw;
-        height: calc(122vh - 4rem);
-        top: 0;
+        height: calc(130vh - 4rem);
+        top: 0vh;
     }
 
     .contact-box {
-        height: 77vh;
+        height: 80vh;
     }
 
     .form-main {

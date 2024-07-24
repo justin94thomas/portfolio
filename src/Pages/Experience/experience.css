@@ -1,10 +1,11 @@
 #experience {
-    height: calc(100vh - 4rem);
+    height: calc(110vh - 4rem);
     width: 55vw;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
     top: 10vh;
+    align-content: center;
 }
 
 .experience-content {
@@ -95,11 +96,16 @@
     #experience {
         width: 100vw;
         height: calc(110vh - 4rem);
-        top: 0;
+        top: 0vh;
+    }
+
+    .experience-content {
+        height: 100vh;
     }
 
     .exp-side-content {
         grid-template-columns: none;
+        height: 100vh;
     }
 
     .exp-ul {
@@ -116,7 +122,4 @@
         margin: 5px 0;
     }
 
-    .experience-content {
-        height: auto;
-    }
 }

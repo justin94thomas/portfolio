@@ -1,5 +1,5 @@
 #about {
-    height: calc(108vh - 4rem);
+    height: calc(100vh - 4rem);
     width: 100vw;
     margin: 0 auto;
     overflow: hidden;
@@ -105,12 +105,12 @@
 
 @media screen and (max-width: 480px) {
     #about {
-        height: calc(100vh - 4rem);
+        height: calc(95vh - 4rem);
         top: 0vh;
     }
 
     .about-content {
-        height: 75vh
+        height: 65vh
     }
 
     .backgroundImg {
