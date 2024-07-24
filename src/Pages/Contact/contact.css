@@ -121,13 +121,13 @@
 
 @media screen and (max-width: 480px) {
     #contact {
-        width: 100vw;
+        width: 95vw;
         height: calc(130vh - 4rem);
         top: 0vh;
     }
 
     .contact-box {
-        height: 80vh;
+        height: 100vh;
     }
 
     .form-main {
@@ -153,11 +153,22 @@
 @media screen and (max-width: 800px) {
     #contact {
         width: 85vw;
+        height: calc(130vh - 4rem);
+    }
+
+    .form-div,
+    .form-div-full {
+        grid-column: span 2;
+    }
+
+    .contact-box {
+        height: 100vh;
     }
 }
 
 @media screen and (max-width: 1024px) {
     #contact {
         width: 75vw;
+        height: calc(130vh - 4rem);
     }
 }
