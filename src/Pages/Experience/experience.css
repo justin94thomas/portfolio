@@ -94,7 +94,7 @@
 @media screen and (max-width: 480px) {
     #experience {
         width: 100vw;
-        height: calc(160vh - 4rem);
+        height: calc(110vh - 4rem);
         top: 0;
     }
 

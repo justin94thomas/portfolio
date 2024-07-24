@@ -1,0 +1,147 @@
+#contact {
+    height: calc(100vh - 4rem);
+    width: 55vw;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 10vh;
+}
+
+.contact-content {
+    padding: 20px;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    gap: 8vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    height: 75vh;
+}
+
+.contact-box {
+    background-color: #000;
+    width: 100%;
+    height: 75vh;
+    border-radius: 8px;
+    position: relative;
+}
+
+.form-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    margin: 20px;
+    gap: 12px;
+}
+
+.form-div,
+.form-div-full {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.form-div-full {
+    grid-column: span 2;
+}
+
+.form-label {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+.input-element {
+    border: 1px solid #fff;
+    height: 30px;
+    color: #fff;
+    border-radius: 2px;
+    padding: 5px 8px;
+    background-color: rgb(30, 30, 30);
+}
+
+.textarea-element {
+    resize: vertical;
+    min-height: 100px;
+    border: 1px solid #fff;
+    height: 30px;
+    color: #fff;
+    border-radius: 2px;
+    padding: 5px 8px;
+    background-color: rgb(30, 30, 30);
+}
+
+.PhoneInputCountry {
+    width: 50px;
+}
+
+.PhoneInputInput {
+    color: #fff;
+    border: none;
+}
+
+.PhoneInputCountryIcon {
+    height: auto !important;
+}
+
+.form-submit {
+    width: 100px;
+    border: 1px solid #fff;
+    height: 35px;
+    color: #fff;
+    border-radius: 2px;
+    align-self: center;
+    cursor: pointer;
+    background-color: rgb(30, 30, 30);
+}
+
+.response-text {
+    font-size: 18px;
+    font-weight: 400;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 44%;
+}
+
+.form-submit:hover {
+    color: yellow;
+    border: 2px solid yellow;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 480px) {
+    #contact {
+        width: 100vw;
+        height: calc(116vh - 4rem);
+        top: 0;
+    }
+
+    .form-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+        margin: 20px;
+        gap: 12px;
+        overflow: hidden;
+    }
+
+    .form-div,
+    .form-div-full {
+        grid-column: span 2;
+    }
+
+    .form-submit {
+        width: 100%;
+    }
+
+}
