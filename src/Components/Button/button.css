@@ -2,7 +2,7 @@
     width: 180px;
     height: 40px;
     cursor: pointer;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.6);
     border: none;
     outline: none;
     position: relative;
