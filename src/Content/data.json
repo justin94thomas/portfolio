@@ -92,28 +92,76 @@
     ],
     "Skills": [
         {
-            "Frontend Development": [
-                "React.JS",
-                "JavaScript",
-                "HTML5",
-                "CSS3",
-                "TypeScript"
+            "label": "Frontend Development",
+            "id": "FE",
+            "active": true,
+            "items": [
+                {
+                    "item": "React.JS",
+                    "img": "react"
+                },
+                {
+                    "item": "JavaScript",
+                    "img": "javascript"
+                },
+                {
+                    "item": "HTML5",
+                    "img": "html5"
+                },
+                {
+                    "item": "CSS3",
+                    "img": "css3"
+                },
+                {
+                    "item": "TypeScript",
+                    "img": "typescript"
+                }
             ]
         },
         {
-            "Backend Development": [
-                "Node.JS",
-                "Express.JS",
-                "MongoDB",
-                "SOQL"
+            "label": "Backend Development",
+            "id": "BE",
+            "active": false,
+            "items": [
+                {
+                    "item": "Node.JS",
+                    "img": "node"
+                },
+                {
+                    "item": "Express.JS",
+                    "img": "express"
+                },
+                {
+                    "item": "MongoDB",
+                    "img": "mongo"
+                },
+                {
+                    "item": "SOQL",
+                    "img": "soql"
+                }
             ]
         },
         {
-            "Tools & Platform": [
-                "GIT",
-                "Bitbucket",
-                "Postman",
-                "JIRA"
+            "label": "Tools & Platform",
+            "id": "TP",
+            "active": false,
+            "items": [
+                {
+                    "item": "GIT",
+                    "img": "git"
+                },
+                {
+                    "item": "Bitbucket",
+                    "img": "bit"
+                },
+                {
+                    "item": "Postman",
+                    "img": "postman"
+                },
+                {
+                    "item": "JIRA",
+                    "img": "jira"
+                }
             ]
         }
     ],

@@ -83,11 +83,11 @@
 
     .backgroundImg {
         right: -20vw;
-        height: 95vh;
+        height: 95vh !important;
     }
 
     .intro-content {
         font-size: 9vw !important;
-        height: 95vh
+        height: 95vh !important;
     }
 }
