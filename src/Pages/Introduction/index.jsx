@@ -41,7 +41,7 @@ const Introduction = () => {
                 <div className='intro-content'>
                     <span className='hello'>Hello,</span>
                     <span className='introText'>I'm <span className='intro-name'>Justin Thomas</span> <br />
-                        a <span>{text}</span>
+                        a <span className='effect-text'>{text}</span>
                         <Cursor
                             cursorBlinking="false"
                             cursorStyle="|"
