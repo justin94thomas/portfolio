@@ -29,6 +29,20 @@
     text-align: left;
 }
 
+.button-set {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.intro-button {
+    padding: 8px 12px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 .hello {
     font-size: 1.75rem;
     font-weight: 100;
