@@ -18,6 +18,8 @@ import SOQLLogo from '../Assets/Images/soql.png';
 import BackgroundSide from '../Assets/Images/background.png';
 import { TiMessages } from "react-icons/ti";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { FaGithub } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
 
 const images = {
     Profile: Profile,
@@ -33,7 +35,9 @@ const images = {
 }
 const icons = {
     Message: TiMessages,
-    Menu: GiHamburgerMenu
+    Menu: GiHamburgerMenu,
+    GitHubICO: FaGithub,
+    LinkedInICO: CiLinkedin,
 }
 const skills = {
     react: ReactLogo,

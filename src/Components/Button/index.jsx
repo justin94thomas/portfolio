@@ -1,9 +1,9 @@
 import React from 'react';
 import './button.css';
 
-const CustomButton = ({ name, onClick }) => {
+const CustomButton = ({ name, onClick, className }) => {
     return (
-        <button className="custom-btn" onClick={onClick}>
+        <button className={`custom-btn ${className}`} onClick={onClick}>
             <svg width="180px" height="42px" viewBox="0 0 180 41" className="border">
                 <polyline points="179,1 179,59 1,59 1,1 179,1" className="bg-line" />
                 <polyline points="179,1 179,59 1,59 1,1 179,1" className="hl-line" />
