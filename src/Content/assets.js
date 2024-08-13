@@ -16,6 +16,7 @@ import PostmanLogo from '../Assets/Images/postman.png';
 import JiraLogo from '../Assets/Images/jira.png';
 import SOQLLogo from '../Assets/Images/soql.png';
 import BackgroundSide from '../Assets/Images/background.png';
+import { TbWorldWww } from "react-icons/tb"
 import { TiMessages } from "react-icons/ti";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaGithub } from "react-icons/fa";
@@ -38,6 +39,7 @@ const icons = {
     Menu: GiHamburgerMenu,
     GitHubICO: FaGithub,
     LinkedInICO: CiLinkedin,
+    WebsiteICO: TbWorldWww
 }
 const skills = {
     react: ReactLogo,
@@ -52,7 +54,8 @@ const skills = {
     git: GitHubLogo,
     bit: BitBucketLogo,
     postman: PostmanLogo,
-    jira: JiraLogo
+    jira: JiraLogo,
 
 }
-export { images, icons, skills }
+const projects = {}
+export { images, icons, skills, projects }

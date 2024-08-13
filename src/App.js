@@ -8,6 +8,7 @@ import About from './Pages/About';
 import Experience from './Pages/Experience';
 import Contact from './Pages/Contact';
 import Skills from './Pages/Skills';
+import Projects from './Pages/Projects';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <About />
           <Experience />
           <Skills />
+          <Projects />
           <Contact />
         </SnackbarProvider>
       </PortfolioProvider>

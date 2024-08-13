@@ -8,7 +8,6 @@ const Skills = () => {
     const [workData, setWorkData] = useState([]);
 
     useEffect(() => {
-        console.log("skills", state.data['Skills'])
         setWorkData(state.data['Skills']);
     }, [state.data]);
 

@@ -1,0 +1,87 @@
+#projects {
+    height: calc(100vh - 4rem);
+    width: 55vw;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 10vh;
+    align-content: center;
+}
+
+.projects-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-content {
+    padding: 20px;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flow;
+    flex-direction: row;
+    gap: 8vh;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    height: 100vh;
+}
+
+.projects-content-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.project-name {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.links-ico {
+    width: 20px;
+    color: white;
+}
+
+.project-img {
+    width: 250px;
+    height: 150px;
+    margin-top: 15px;
+}
+
+.card-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    #projects {
+        width: 75vw;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    #projects {
+        width: 85vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #projects {
+        width: 100vw;
+        height: auto;
+        top: 0vh;
+    }
+
+    .projects-content {
+        height: auto;
+    }
+}

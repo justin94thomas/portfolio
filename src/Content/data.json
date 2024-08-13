@@ -169,8 +169,9 @@
         {
             "Project Name": "Project Alpha – Marketplace",
             "Description": "Aims to create a dynamic online platform specializing in sneakers and clothing. This user-friendly site will feature a selection of products, and a streamlined shopping experience, catering to fashion enthusiasts looking for the latest trends and exclusive releases.",
-            "Image": "",
-            "GitHub": "",
+            "Image": "https://as2.ftcdn.net/v2/jpg/01/95/78/87/1000_F_195788717_Ba8397mYBadW3JUx5SQejAxpRN02DyEF.jpg",
+            "GitHub": "https://github.com/justin94thomas/project-alpha",
+            "Website": "",
             "Tools & Technologies": [
                 "React JS",
                 "JavaScript",
@@ -189,8 +190,9 @@
         {
             "Project Name": "Project Alpha – Blockbuster",
             "Description": "Aims to develop a comprehensive platform for booking movie tickets with seat selection, watching trailers, and streaming movies online. This user-friendly site will offer a seamless experience for movie enthusiasts, providing all-in-one access to the latest releases and convenient ticket reservations.",
-            "Image": "",
-            "GitHub": "",
+            "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Blockbuster_logo.svg/1200px-Blockbuster_logo.svg.png",
+            "GitHub": "https://github.com/justin94thomas/project-alpha",
+            "Website": "",
             "Tools & Technologies": [
                 "React JS",
                 "JavaScript",
@@ -204,6 +206,41 @@
                 "Node.JS",
                 "Express.JS",
                 "MongoDB"
+            ]
+        },
+        {
+            "Project Name": "Drone Fleet Management",
+            "Description": "Manage and maintain fleet of drone",
+            "Image": "https://freepngimg.com/thumb/drone/21671-5-drone-transparent-background.png",
+            "GitHub": "https://github.com/justin94thomas/drone-fleet-management",
+            "Website": "https://drone-fleet-management.netlify.app",
+            "Tools & Technologies": [
+                "React JS",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "Context API",
+                "Material UI",
+                "Bootstrap",
+                "GIT",
+                "GitHub"
+            ]
+        },
+        {
+            "Project Name": "Canvas 2D Draw",
+            "Description": "Draw 2D lines on-top of images",
+            "Image": "https://www.shutterstock.com/image-vector/city-top-view-above-aerial-600nw-1906706671.jpg",
+            "GitHub": "https://github.com/justin94thomas/Canvas-Draw",
+            "Website": "https://canvas-2d-draw.netlify.app/",
+            "Tools & Technologies": [
+                "React JS",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "Material UI",
+                "Bootstrap",
+                "GIT",
+                "GitHub"
             ]
         }
     ]

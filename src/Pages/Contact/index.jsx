@@ -23,7 +23,6 @@ const Contact = () => {
             setLoading(false)
         },
             (error) => {
-                console.log('FAILED...', error.text);
                 enqueueSnackbar('Please try again!', { variant: 'error', autoHideDuration: 3000, });
                 setLoading(false)
             },

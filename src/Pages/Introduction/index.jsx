@@ -19,7 +19,6 @@ const Introduction = () => {
     });
 
     const downloadResume = () => {
-        console.log("download resume")
         const link = document.createElement('a');
         link.href = `${process.env.PUBLIC_URL}/resume.pdf`;
         link.download = 'Resume.pdf';
@@ -28,7 +27,6 @@ const Introduction = () => {
         document.body.removeChild(link);
     }
     const downloadCoverLetter = () => {
-        console.log("download cover letter")
         const link = document.createElement('a');
         link.href = `${process.env.PUBLIC_URL}/cover.pdf`;
         link.download = 'Cover-Letter.pdf';
