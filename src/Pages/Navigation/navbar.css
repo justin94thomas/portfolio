@@ -25,6 +25,7 @@
     object-fit: cover;
     height: 3rem;
     width: 4rem;
+    cursor: pointer;
 }
 
 .link-item {

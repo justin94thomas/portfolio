@@ -11,7 +11,9 @@ const Navigation = () => {
     return <>
         <div className='div-container navigation-main'>
             <nav className='navbar'>
-                <img src={JTLogo} alt='Logo' className='logo' />
+                <img src={JTLogo} alt='Logo' className='logo'
+                    onClick={() => document.getElementById('intro').scrollIntoView({ behavior: 'smooth' })}
+                />
                 <div className='menu-items'>
                     <Link activeClass='active' to='intro' spy smooth offset={-100} duration={500} className='link-item'>Introduction</Link>
                     <Link activeClass='active' to='about' spy smooth offset={-50} duration={500} className='link-item'>About</Link>
