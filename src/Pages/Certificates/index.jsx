@@ -39,7 +39,7 @@ const Certificates = () => {
                         {certificateData && certificateData.map(item => (
                             <div className='certificate-card' key={item.Id} onClick={() => handleSelectCertificate(item)}>
                                 <div className='card-image'>
-                                    <img src={certificates[item.preview]} className={"certificate-img"} alt='certificate-img' />
+                                    <img src={certificates[item.preview]} className={"certificate-img"} alt='certificate-img' style={{ width: '100% !important' }} />
                                 </div>
                             </div>
                         ))}
@@ -53,7 +53,7 @@ const Certificates = () => {
                         >
                             {
                                 selectedCertificate?.Type === 'image' ?
-                                    <img src={certificates[selectedCertificate?.preview]} className="certificate-preview" alt='certificate-img' /> :
+                                    <img src={certificates[selectedCertificate?.preview]} className="certificate-preview" alt='certificate-img' style={{ width: '100% !important' }} /> :
                                     selectedCertificate?.Type === 'pdf' ?
                                         <iframe
                                             src={certificates[selectedCertificate?.preview]}
