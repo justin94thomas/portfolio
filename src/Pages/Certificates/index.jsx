@@ -1,48 +1,20 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './certificates.css';
 import { usePortfolioContext } from '../../Content/PortfolioContext';
-import { useSnackbar } from 'notistack';
 import { certificates } from '../../Content/assets';
 import { Modal } from 'antd';
 
 const Certificates = () => {
     const { state } = usePortfolioContext();
-    const { enqueueSnackbar } = useSnackbar();
     const [certificateData, setCertificateData] = useState([]);
     const [selectedCertificate, setSelectedCertificate] = useState(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const mapContainerRef = useRef(null);
-    const [cardUI, setCardUI] = useState({
-        height: window.innerHeight,
-        width: window.innerWidth,
-    });
 
     useEffect(() => {
         console.log("certificateData", state.data['Certificate']);
         setCertificateData(state.data['Certificate']);
     }, [state.data]);
-
-    useEffect(() => {
-        function updateScreenSize() {
-            const newHeight = window.innerHeight;
-            const mapContainerHeight = newHeight * 0.4;
-
-            setCardUI({
-                height: newHeight,
-                width: window.innerWidth,
-                mapHeight: mapContainerHeight
-            });
-
-            if (mapContainerRef.current) {
-                mapContainerRef.current.style.height = `${mapContainerHeight}px`;
-            }
-        }
-        window.addEventListener('resize', updateScreenSize);
-        updateScreenSize();
-        return () => {
-            window.removeEventListener('resize', updateScreenSize);
-        };
-    }, []);
 
     const handleSelectCertificate = (pdfUrl) => {
         setSelectedCertificate(pdfUrl);
