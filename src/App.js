@@ -9,6 +9,8 @@ import Experience from './Pages/Experience';
 import Contact from './Pages/Contact';
 import Skills from './Pages/Skills';
 import Projects from './Pages/Projects';
+import Certificates from './Pages/Certificates';
+
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
           <Experience />
           <Skills />
           <Projects />
+          <Certificates />
           <Contact />
         </SnackbarProvider>
       </PortfolioProvider>

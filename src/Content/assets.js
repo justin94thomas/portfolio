@@ -16,6 +16,8 @@ import PostmanLogo from '../Assets/Images/postman.png';
 import JiraLogo from '../Assets/Images/jira.png';
 import SOQLLogo from '../Assets/Images/soql.png';
 import BackgroundSide from '../Assets/Images/background.png';
+import ReactCertificate from '../Assets/Docs/TestDome-React_JS.png';
+import PowerBi from '../Assets/Docs/PowerBI.pdf';
 import { TbWorldWww } from "react-icons/tb"
 import { TiMessages } from "react-icons/ti";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -58,4 +60,8 @@ const skills = {
 
 }
 const projects = {}
-export { images, icons, skills, projects }
+const certificates = {
+    PowerBi: PowerBi,
+    ReactCertificate: ReactCertificate
+}
+export { images, icons, skills, projects, certificates }

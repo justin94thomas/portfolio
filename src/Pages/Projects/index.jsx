@@ -30,7 +30,7 @@ const Projects = () => {
                     <span className='intro-name'>Projects</span>
                     <div className='projects-content-div'>
                         {projectData && projectData.map(item => (
-                            <div className='project-card'>
+                            <div className='project-card' key={item.id}>
                                 <div className='card-image'>
                                     <img src={item.Image} className={item.Website !== "" ? 'project-img' : "project-img disabled"} alt='project-img' />
                                 </div>

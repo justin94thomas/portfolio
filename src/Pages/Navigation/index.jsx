@@ -20,6 +20,7 @@ const Navigation = () => {
                     <Link activeClass='active' to='experience' spy smooth offset={-100} duration={500} className='link-item'>Experience</Link>
                     <Link activeClass='active' to='skills' spy smooth offset={-100} duration={500} className='link-item'>Skills</Link>
                     <Link activeClass='active' to='projects' spy smooth offset={-100} duration={500} className='link-item'>Projects</Link>
+                    <Link activeClass='active' to='certificates' spy smooth offset={-100} duration={500} className='link-item'>Certifications</Link>
                 </div>
                 <button className='contact-btn'
                     onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>
@@ -32,6 +33,7 @@ const Navigation = () => {
                     <Link activeClass='active' to='experience' spy smooth offset={-75} duration={500} className='mobile-link-item' onClick={() => setShowMenu(false)}>Experience</Link>
                     <Link activeClass='active' to='skills' spy smooth offset={-100} duration={500} className='mobile-link-item' onClick={() => setShowMenu(false)}>Skills</Link>
                     <Link activeClass='active' to='projects' spy smooth offset={-100} duration={500} className='mobile-link-item' onClick={() => setShowMenu(false)}>Projects</Link>
+                    <Link activeClass='active' to='certificates' spy smooth offset={-100} duration={500} className='mobile-link-item' onClick={() => setShowMenu(false)}>Certifications</Link>
                     <Link activeClass='active' to='contact' spy smooth offset={-100} duration={500} className='mobile-link-item' onClick={() => setShowMenu(false)}>Contact</Link>
                 </div>
 

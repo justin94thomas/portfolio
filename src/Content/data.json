@@ -243,5 +243,21 @@
                 "GitHub"
             ]
         }
+    ],
+    "Certificate": [
+        {
+            "id": "1",
+            "Certificate Name": "React JS",
+            "preview": "ReactCertificate",
+            "Description": "React Js Certificate from TestDome.",
+            "Type": "image"
+        },
+        {
+            "id": "2",
+            "Certificate Name": "PowerBI",
+            "preview": "PowerBi",
+            "Description": "PowerBI Certificate from Skill Nation.",
+            "Type": "pdf"
+        }
     ]
 }
