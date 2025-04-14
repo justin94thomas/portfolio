@@ -38,12 +38,12 @@ const Skills = () => {
                                 </button>
                             ))}
                         </ul>
-                        {workData.filter(item => item.active).map(item => {
+                        {workData.filter(it => it.active).map((item, idx) => {
                             return (
-                                <div key={item?.id} className='skills-info'>
+                                <div key={idx} className='skills-info'>
                                     <div className='skills2-content'>
                                         {item['items']?.map((role) => (
-                                            <div className='skill-main'>
+                                            <div className='skill-main' key={role.id}>
                                                 <img src={skills[role.img]} alt={'dashboard-img'} style={{ width: '100px', height: '100%' }} />
                                                 <p className='skills-label'>{role?.item}</p>
                                             </div>

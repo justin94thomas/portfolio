@@ -38,14 +38,14 @@ const Experience = () => {
                                 </button>
                             ))}
                         </ul>
-                        {workData.filter(item => item.active).map(item => {
+                        {workData.filter(it => it.active).map(item => {
                             const startDate = parse(item['Start Date'], 'MM-dd-yyyy', new Date());
-                            const endDate = parse(item['End Date'], 'MM-dd-yyyy', new Date());
+                            const endDate = item['End Date'] !== '' ? parse(item['End Date'], 'MM-dd-yyyy', new Date()) : '';
                             return (
                                 <div key={item?.empID} className='company-info'>
                                     <p className='company-title'>{item['Designation']}</p>
                                     <p className='company-title'><span>{item['Company Name']}</span> | {item['Location']}</p>
-                                    <p className='company-dates'>{format(startDate, 'MMM yyyy')} - {format(endDate, 'MMM yyyy')}</p>
+                                    <p className='company-dates'>{format(startDate, 'MMM yyyy')} - {endDate !== '' ? format(endDate, 'MMM yyyy') : 'Current'}</p>
                                     <ul className='exp-content'>
                                         {item['Roles and Responsibilities']?.map((role, index) => (
                                             <li key={index} className='company-item'>{role}</li>

@@ -27,8 +27,8 @@ const About = () => {
                 }}>
                     <span className='intro-name'>About Me</span>
                     <div className='main-content'>
-                        {about && about.map(item => {
-                            return <div className='about-text'>
+                        {about && about.map((item, idx) => {
+                            return <div className='about-text' key={idx}>
                                 <p className='about-para'>{item}</p>
                             </div>
                         })}

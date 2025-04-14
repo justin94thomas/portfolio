@@ -10,13 +10,30 @@
     "Email": "justin19.94thomas@gmail.com",
     "Mobile": 9873658895,
     "Designation": [
-        "MERN Stack Developer",
         "React Developer",
-        "Web Developer"
+        "Frontend Developer"
     ],
-    "Total Experience": 4.8,
-    "Relavant Experience": 4.2,
+    "Total Experience": 5.2,
+    "Relavant Experience": 4.6,
     "Work Experience": [
+        {
+            "empID": "364",
+            "Designation": "Frontend Developer",
+            "Company Name": "Koru UX Designs",
+            "Location": "Pune, Maharashtra",
+            "Start Date": "11-24-2024",
+            "End Date": "",
+            "Current Company": true,
+            "active": true,
+            "Roles and Responsibilities": [
+                "Developed a chart-based health tracker that enables healthcareprofessionals to monitor client vitals over time and make predictiveanalyses.",
+                "Researched, evaluated, and implemented state management libraries,comparing multiple options to optimize performance and scalability.",
+                "Gained expertise in RedwoodJS, Storybook, Cells, and GraphQL, applyingthem to build migration schemas and integrate Cells with GraphQL.",
+                "Wrote Storybook stories for multiple components, improving UIconsistency and documentation."
+            ],
+            "Intership": false,
+            "Intership Details": []
+        },
         {
             "empID": "K089444",
             "Designation": "React Developer",
@@ -25,7 +42,7 @@
             "Start Date": "01-01-2022",
             "End Date": "03-12-2022",
             "Current Company": false,
-            "active": true,
+            "active": false,
             "Roles and Responsibilities": [
                 "Led front-end development for the academic management module, facilitating term planning and faculty onboarding.",
                 "Developed robust APIs with Express.JS and integrated SOQL queries, enhancing data retrieval efficiency.",
