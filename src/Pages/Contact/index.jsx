@@ -37,7 +37,7 @@ const Contact = () => {
                     <span className='intro-name'>Let's Connect</span>
                     <div className='contact-box'>
                         {!sendEmail ? <form ref={form} onSubmit={handleSubmit(onSubmit)} className='form-main'>
-                            <div className='form-div'>
+                            <div className='form-div-half'>
                                 <label className='form-label'>Name</label>
                                 <input
                                     className="input-element"
@@ -46,7 +46,7 @@ const Contact = () => {
                                 />
                                 {errors.full_name && <p style={{ color: 'red', fontSize: 12 }}>{errors.full_name.message}</p>}
                             </div>
-                            <div className='form-div'>
+                            <div className='form-div-half'>
                                 <label className='form-label'>Phone</label>
                                 <input
                                     className="input-element"

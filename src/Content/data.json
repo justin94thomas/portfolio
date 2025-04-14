@@ -118,6 +118,18 @@
                     "img": "react"
                 },
                 {
+                    "item": "React Native",
+                    "img": "react"
+                },
+                {
+                    "item": "Redwood.JS",
+                    "img": "redwood"
+                },
+                {
+                    "item": "Storybook",
+                    "img": "storybook"
+                },
+                {
                     "item": "JavaScript",
                     "img": "javascript"
                 },

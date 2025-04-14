@@ -6,11 +6,11 @@ const About = () => {
     const { BackgroundSide } = images;
 
     const [about] = useState([
-        "Hello! ",
-        "I'm Justin Thomas, a passionate React JS Developer with over four years of experience creating and optimizing user-centric web applications. My expertise lies in leveraging the MERN stack to build seamless, high-performance solutions that delight users and drive business growth.",
-        "In my journey as a developer, I have consistently focused on enhancing user experiences through innovative front-end solutions. My technical skills include proficiency in React JS, JavaScript, HTML5, CSS3, and TypeScript, along with a solid understanding of Node.JS, Express.JS, and MongoDB for back-end development.",
-        "I thrive in dynamic, collaborative environments and enjoy staying ahead of the curve by exploring the latest trends and technologies in web development.",
-        "As a forward-thinking developer, I am always eager to contribute to open-source projects, share my knowledge with the community, and learn from fellow tech enthusiasts."
+        "Hello!",
+        "I'm Justin Thomas, a passionate React JS Developer with over 5 years of professional experience in web development, including 4.6 years specializing in building user-centric, high-performance web applications.",
+        "My technical toolkit includes React JS, JavaScript, TypeScript, HTML5, CSS3, Storybook, RedwoodJS, Zustand, and Context API, along with a solid grasp of backend technologies like Node.js, Express.js, and GraphQL.",
+        "I thrive in collaborative, fast-paced environments and enjoy crafting intuitive, responsive interfaces that enhance user experience and drive results.",
+        "I’m constantly learning and evolving as a developer—currently exploring technologies like Angular, React Native, and deepening my knowledge in RedwoodJS to stay ahead in the ever-changing tech landscape."
     ])
     return <>
         <div className='div-container about-main'>

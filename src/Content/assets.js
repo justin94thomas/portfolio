@@ -18,6 +18,8 @@ import SOQLLogo from '../Assets/Images/soql.png';
 import BackgroundSide from '../Assets/Images/background.png';
 import ReactCertificate from '../Assets/Docs/TestDome-React_JS.png';
 import PowerBi from '../Assets/Docs/PowerBi.png';
+import StorybookLogo from '../Assets/Images/storybook-logo.png';
+import RedwoodLogo from '../Assets/Images/redwoodjs.png'
 import { TbWorldWww } from "react-icons/tb"
 import { TiMessages } from "react-icons/ti";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -34,7 +36,9 @@ const images = {
     CSS3Logo: CSS3Logo,
     TypeScriptLogo: TypeScriptLogo,
     NodeLogo: NodeLogo,
-    BackgroundSide: BackgroundSide
+    BackgroundSide: BackgroundSide,
+    RedwoodLogo: RedwoodLogo,
+    StorybookLogo: StorybookLogo
 }
 const icons = {
     Message: TiMessages,
@@ -45,6 +49,8 @@ const icons = {
 }
 const skills = {
     react: ReactLogo,
+    redwood: RedwoodLogo,
+    storybook: StorybookLogo,
     javascript: JavaScriptLogo,
     html5: HTML5Logo,
     css3: CSS3Logo,
